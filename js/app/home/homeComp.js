@@ -19,7 +19,7 @@
               ctrl.index = null;
               ctrl.comments = null;
           }
-          if(ctrl.index === index){
+          if(ctrl.index > index){
               ctrl.index = ctrl.index - 1;
               ctrl.comments = ctrl.news[ctrl.index].comments;
           }
